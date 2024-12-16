@@ -8,6 +8,9 @@ espressoCore = "3.5.1"
 lifecycleRuntimeKtx = "2.6.1"
 activityCompose = "1.8.0"
 composeBom = "2024.04.01"
+glanceAppwidget = "1.1.1"
+glanceMaterial3 = "1.1.0"
+glanceMaterial2 = "1.1.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -24,6 +27,9 @@ androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-toolin
 androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+glance-appwidget = {group = "androidx.glance", name = "glance-appwidget", version.ref = "glanceAppwidget"}
+glance-material3 = {group = "androidx.glance", name = "glance-material3", version.ref = "glanceMaterial3"}
+glance-material2 = {group = "androidx.glance", name = "glance-material", version.ref = "glanceMaterial2"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
